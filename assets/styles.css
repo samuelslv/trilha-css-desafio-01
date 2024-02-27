@@ -4,7 +4,9 @@ body {
     /*margin-top: -225px;
     margin-left: 709px;*/
     background-color: black;
-    color: white;
+    font-family: 'Raleway';
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .banner {
@@ -96,4 +98,93 @@ button {
     border-image-slice: 10;
     border-radius: 30px;
 
+}
+
+#course-content {
+    width: 792px;
+    height: 325px;
+    margin-top: 118px;
+    margin-left: 324px;
+    margin-bottom: 90px;
+    gap: 24px;
+
+    /*border: solid greenyellow;*/
+    text-align: center;
+
+    
+}
+
+#course-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: left;
+    text-transform: uppercase;
+    text-align: center;
+
+    background: rgba(51, 168, 219, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#course-content p {
+    width: 792px;    
+    height: 38px;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#course-content .module{
+    width: 535px;
+    height: 51px;
+    margin-left: 128px;
+    margin-bottom: 24px;
+    border-radius: 57px;
+    border: 1px;
+    background: rgb(37, 37, 37);
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+    border: 1px solid rgba(51, 168, 219, 1);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    word-spacing: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.module span {
+    color: rgba(51, 168, 219, 1);   
+
+}
+#transform-world {
+    width: 1440px;
+    height: 363px;
+    border: rgb(0, 255, 238) solid;
+}
+
+main {
+    width: 1440px;
+    height: 1716px;
+    border: rgb(247, 0, 255) solid;
+}
+
+footer {
+    width: 1440px;
+    height: 170px;
+    border: rgb(0, 13, 255) solid;
 }
