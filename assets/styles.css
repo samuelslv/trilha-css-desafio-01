@@ -202,12 +202,66 @@ button {
 
 }
 
+#professional-challenges{
+    margin-bottom: 90px;
+    gap: 24px;
+
+    display: contents;
+    justify-content: center;
+
+    align-items: center;
+
+    /*border: solid greenyellow;*/
+    text-align: center;
+
+    color: yellow;
+}
+
+#professional-challenges h2{
+    width: 746px;
+    height: 76px;
+    margin-top: 76px;
+    margin-left: 347px;
+
+    text-transform: uppercase;
+    color: rgba(51, 168, 219, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+}
+
+#professional-challenges img{
+    margin-left: 390px;
+
+
+    text-transform: uppercase;
+    color: rgba(51, 168, 219, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+}
+
+#professional-challenges p{
+    width: 792px;
+    height: 76px;
+    margin-left: 324px;
+
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
 
 
 main {
     width: 1440px;
     height: 1716px;
-    border: rgb(247, 0, 255) solid;
 
 }
 
