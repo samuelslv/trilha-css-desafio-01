@@ -1,26 +1,25 @@
 body {
-    width: Hug(1440px);
-    height: Hug(2491px);
+    width: 1440px;
+    height: 2491px;
     margin-top: 0px;
     margin-left: 0px;
-
     background-color: rgb(0, 0, 0);
     font-family: 'Raleway';
     color: rgba(255, 255, 255, 1);
-
-    
 }
 
 .banner {
-    width: Hug(1440px);
+    width: 1440px;
     height: 605px;
+    font-size: large;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, .6)), url(./images/banner.png);
-    border-bottom: 1px solid #33A8DB;
+    border: 1px solid #00000000;
+    border-bottom: 1px solid rgba(51, 168, 219, 1)
 }
 
 .banner-content {
-    width: Hug(510px);
+    width: 510px;
     height: 393px;
     margin-top: 56px;
     margin-left: 465px;
@@ -49,14 +48,11 @@ body {
     font-family: 'Raleway';
     font-size: 40px;
     font-weight: 900;
-
     text-align: center;
     text-align: left;
     text-transform: uppercase;
-
     line-height: 47px;
     letter-spacing: 0em;
-
     background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,28 +63,22 @@ body {
 .banner-content p {
     width: 510px;
     height: 46px;
-
     font-family: 'Raleway';
     font-size: 20px;
-    font-weight: 400;
-
+    font-weight: 500;
     text-align: center;
-
     line-height: 24px;
     letter-spacing: 0em;
-
     background: rgba(255, 255, 255, 1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
-
     font-family: Raleway;
-
 }
 
 button {
-
+    width: 326px;
+    height: 57px;
     color: #31A8DD;
     font-weight: bold;
     padding: 16px 32px;
@@ -99,7 +89,6 @@ button {
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
     border-radius: 30px;
-
 }
 
 #course-content {
@@ -109,8 +98,6 @@ button {
     margin-left: 324px;
     margin-bottom: 90px;
     gap: 24px;
-
-    /*border: solid greenyellow;*/
     text-align: center;
 }
 
@@ -122,7 +109,6 @@ button {
     text-align: left;
     text-transform: uppercase;
     text-align: center;
-
     background: rgba(51, 168, 219, 1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,23 +116,21 @@ button {
 }
 
 #course-content p {
-    width: 792px;    
+    width: 792px;
     height: 38px;
     align-items: center;
-
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-
     background: rgba(255, 255, 255, 1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-#course-content .module{
+#course-content .module {
     width: 535px;
     height: 51px;
     margin-left: 128px;
@@ -156,38 +140,35 @@ button {
     background: rgb(37, 37, 37);
     box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
     border: 1px solid rgba(51, 168, 219, 1);
-
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     word-spacing: 1px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .module span {
-    color: rgba(51, 168, 219, 1);   
-
+    color: rgba(51, 168, 219, 1);
 }
-#transform-world {
-    width: Hug(1440px);
-    height: 363px;
 
-    border: rgba(0, 0, 0, .0) solid;
+#transform-world {
+    width: 1440px;
+    height: 500px;
+    border-top: 1px rgba(51, 168, 219, 1) solid;
+    border-bottom: 1px rgba(51, 168, 219, 1) solid;
     background-image: url(./images/woman-code.png);
     background-size: cover;
     background-attachment: fixed;
-    
+    display: grid;
+    align-items: center;
 }
 
-#transform-world p{
+#transform-world p {
     width: 244px;
     height: 141px;
-    margin-top: 111px;
     margin-left: 198px;
-    
     font-size: 40px;
     font-weight: 900;
     line-height: 47px;
@@ -195,32 +176,24 @@ button {
     text-align: left;
     text-transform: lowercase;
     color: rgba(255, 255, 255, 1);
-
     text-shadow: 3px 2px rgba(51, 168, 219, 1);
-
 }
 
-#professional-challenges{
+#professional-challenges {
     margin-bottom: 90px;
     gap: 24px;
-
     display: contents;
     justify-content: center;
-
     align-items: center;
-
-    /*border: solid greenyellow;*/
     text-align: center;
-
     color: yellow;
 }
 
-#professional-challenges h2{
+#professional-challenges h2 {
     width: 746px;
     height: 76px;
     margin-top: 76px;
     margin-left: 347px;
-
     text-transform: uppercase;
     color: rgba(51, 168, 219, 1);
     font-size: 30px;
@@ -229,10 +202,8 @@ button {
     letter-spacing: 0.19em;
 }
 
-#professional-challenges img{
+#professional-challenges img {
     margin-left: 390px;
-
-
     text-transform: uppercase;
     color: rgba(51, 168, 219, 1);
     font-size: 30px;
@@ -241,45 +212,39 @@ button {
     letter-spacing: 0.19em;
 }
 
-#professional-challenges p{
+#professional-challenges p {
     width: 792px;
     height: 76px;
     margin-left: 324px;
-
     color: rgba(255, 255, 255, 1);
-
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    
 }
 
 
 main {
-    width: Hug(1440px);
+    width: 1440px;
     height: 1716px;
-
 }
 
 footer {
-    width: Hug(1440px);
+    width: 1440px;
     height: 170px;
     border-top: 1px solid rgba(51, 168, 219, 1);
-
     background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
-
 }
-footer img{
+
+footer img {
     width: 310px;
     height: 44px;
     margin-top: 59px;
     margin-left: 565px;
-
 }
 
-footer p{
+footer p {
     width: 259px;
     height: 19px;
     margin-top: -2px;
@@ -289,10 +254,9 @@ footer p{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    
 }
 
-footer a{
+footer a {
     color: #31A8DD;
     text-decoration: none;
     font-size: 16px;
@@ -300,5 +264,5 @@ footer a{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    
+
 }
