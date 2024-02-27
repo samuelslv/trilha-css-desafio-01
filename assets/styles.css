@@ -1,21 +1,99 @@
+body {
+    width: 1440px;
+    height: 2491px;
+    /*margin-top: -225px;
+    margin-left: 709px;*/
+    background-color: black;
+    color: white;
+}
 
-.banner{
+.banner {
     width: 1440px;
     height: 605px;
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, .6)), url(./images/banner.png);
-    border-bottom: 1px solid #33A8DB;
+    border: 1px solid #33A8DB;
 }
 
-.banner-content{
-    width: 1440px;
-    height: 605px;
-    
-    
+.banner-content {
+    width: 510px;
+    height: 393px;
+    margin-top: 56px;
+    margin-left: 465px;
 }
 
-/*
-    
-    
-    
-    */
+.logo {
+    width: 268px;
+    height: 268px;
+    margin-left: 131px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 248px;
+    height: 214px;
+}
+
+.banner-content h1 {
+    width: 434px;
+    height: 47px;
+    margin-left: 38px;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 900;
+
+    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
+
+    line-height: 47px;
+    letter-spacing: 0em;
+
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.banner-content p {
+    width: 510px;
+    height: 46px;
+
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 400;
+
+    text-align: center;
+
+    line-height: 24px;
+    letter-spacing: 0em;
+
+    background: rgba(255, 255, 255, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+    font-family: Raleway;
+
+}
+
+button {
+
+    color: #31A8DD;
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+
+}
